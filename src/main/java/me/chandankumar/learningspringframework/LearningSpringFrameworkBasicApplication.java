@@ -8,10 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class LearningSpringFrameworkApplication {
+public class LearningSpringFrameworkBasicApplication {
 
     public static void main(String[] args) {
-        ApplicationContext applicationContext = SpringApplication.run(LearningSpringFrameworkApplication.class, args);
+        ApplicationContext applicationContext = SpringApplication.run(LearningSpringFrameworkBasicApplication.class, args);
 
         Employee chandan = applicationContext.getBean(FullTimeEmployee.class);
         Employee rahul = applicationContext.getBean(PartTimeEmployee.class);
